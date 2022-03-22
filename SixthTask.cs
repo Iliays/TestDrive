@@ -9,10 +9,10 @@ namespace SixthTask
 			int allImages = 52;
 			int inRowImages = 3;
 
-			int maxRows = allImages / inRowImages;
+			int filledRows = allImages / inRowImages;
 			int extraImages = allImages % inRowImages;
 
-			Console.WriteLine($"Всего рядов: {maxRows}, лишних: {extraImages}");
+			Console.WriteLine($"Всего рядов: {filledRows}, лишних: {extraImages}");
 		}
 	}
 }
